@@ -26,7 +26,7 @@ use Exception;
 use OCA\Mail\Account;
 use OCA\Mail\Db\MailAccount;
 use OCA\Mail\Db\MailAccountMapper;
-use OCA\Mail\Service\DefaultAccount\DefaultAccountManager;
+use OCA\Mail\Service\DefaultAccount\Manager as DefaultAccountManager;
 use OCP\IL10N;
 
 class AccountService {
